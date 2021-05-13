@@ -20,18 +20,17 @@ html, body {
 }
 #frf {
     background-color: #ffd037;
-    float: left;
     padding: 10px 10px 10px 30px
 }
 #hppc {
     background-color: #ffd037;
-    float: right;
     word-spacing: 10px;
     padding: 10px 10px 10px 20px;
 }
 .all {
-    display: inline-block;
-    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin: 20px 0px 0px 150px
 }
 .allcon {
@@ -41,6 +40,8 @@ h2 {
     text-align: left;
 }
 #navcon {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
     padding: 0px;
     margin: 0px;
